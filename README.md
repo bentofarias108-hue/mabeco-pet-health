@@ -1,73 +1,136 @@
-# Welcome to your Lovable project
+# MABECO — Site Institucional
 
-## Project info
+Site institucional da MABECO, empresa especializada em alimentação natural para pets.
 
-**URL**: https://lovable.dev/projects/8c06643b-31b4-4d99-a4d9-79f6100882d2
+## 🐾 Sobre o Projeto
 
-## How can I edit this code?
+Site responsivo desenvolvido com React, TypeScript, Tailwind CSS e shadcn/ui. Apresenta os benefícios, diferenciais e informações sobre alimentação natural para cães e gatos.
 
-There are several ways of editing your application.
+## 🎨 Características
 
-**Use Lovable**
+- Design moderno e responsivo
+- Otimizado para SEO
+- Animações suaves
+- Integração com WhatsApp
+- Paleta de cores terrosas e naturais
+- Acessibilidade (WCAG AA)
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/8c06643b-31b4-4d99-a4d9-79f6100882d2) and start prompting.
+## 🔧 Personalização
 
-Changes made via Lovable will be committed automatically to this repo.
+### Substituir o número de telefone
 
-**Use your preferred IDE**
+Busque por `{{TELEFONE}}` em todos os arquivos e substitua pelo número real no formato internacional (ex: 5511999999999).
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+**Arquivos que contêm {{TELEFONE}}:**
+- src/components/Hero.tsx
+- src/components/WhatsAppButton.tsx
+- src/components/CTASection.tsx
+- src/components/Header.tsx
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+### Substituir imagens
 
-Follow these steps:
+As imagens estão em `src/assets/`. Para substituir:
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+1. Coloque suas novas imagens na pasta `src/assets/`
+2. Atualize os imports nos componentes correspondentes
+3. Mantenha os nomes ou atualize as referências
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+**Imagens utilizadas:**
+- `hero-bg.jpg` - Imagem principal do hero
+- `video-thumb.jpg` - Thumbnail da seção de vídeo
+- `comparison-center.jpg` - Imagem central da comparação
+- `when-offer-bg.jpg` - Background da seção "Quando oferecer"
+- `section-1.jpg` - Ingredientes naturais
+- `section-2.jpg` - Veterinário com pet
 
-# Step 3: Install the necessary dependencies.
-npm i
+### Substituir logo
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+Atualmente usa um círculo simples com "M". Para adicionar logo real:
+
+1. Adicione a imagem do logo em `src/assets/logo.png`
+2. Edite `src/components/Header.tsx`
+3. Substitua o círculo pelo import da imagem
+
+## 📦 Instalação e Desenvolvimento
+
+```bash
+# Instalar dependências
+npm install
+
+# Executar em desenvolvimento
 npm run dev
+
+# Build para produção
+npm run build
+
+# Preview do build
+npm run preview
 ```
 
-**Edit a file directly in GitHub**
+## 🚀 Deploy
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+O projeto está configurado para deploy via Lovable.
 
-**Use GitHub Codespaces**
+1. Abra [Lovable Project](https://lovable.dev/projects/8c06643b-31b4-4d99-a4d9-79f6100882d2)
+2. Clique em "Publish" no canto superior direito
+3. Siga as instruções para publicar
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+### Deploy Manual
 
-## What technologies are used for this project?
+Após o build (`npm run build`), a pasta `dist/` conterá os arquivos estáticos prontos para hospedagem em qualquer servidor web.
 
-This project is built with:
+## 📱 Redes Sociais
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+Atualize os links das redes sociais em `src/components/Footer.tsx`:
 
-## How can I deploy this project?
+```tsx
+<a href="https://instagram.com/seu_perfil" ...>
+<a href="https://facebook.com/seu_perfil" ...>
+```
 
-Simply open [Lovable](https://lovable.dev/projects/8c06643b-31b4-4d99-a4d9-79f6100882d2) and click on Share -> Publish.
+## 🎯 SEO
 
-## Can I connect a custom domain to my Lovable project?
+Meta tags configuradas em `index.html`:
+- Title otimizado com palavras-chave
+- Meta description (max 160 caracteres)
+- Open Graph tags para redes sociais
+- Alt text em todas as imagens
 
-Yes, you can!
+## 📄 Estrutura de Arquivos
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+```
+src/
+├── assets/          # Imagens do site
+├── components/      # Componentes React
+│   ├── ui/         # Componentes shadcn/ui
+│   ├── Header.tsx
+│   ├── Hero.tsx
+│   ├── Benefits.tsx
+│   ├── VideoSection.tsx
+│   ├── QualityFeatures.tsx
+│   ├── Comparison.tsx
+│   ├── WhenToOffer.tsx
+│   ├── BenefitsList.tsx
+│   ├── CTASection.tsx
+│   ├── Footer.tsx
+│   └── WhatsAppButton.tsx
+├── pages/          # Páginas
+│   └── Index.tsx
+└── index.css       # Design system e estilos globais
+```
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+## 🎨 Design System
+
+Todas as cores estão definidas em `src/index.css` usando HSL:
+- **Primary:** Terracota (#D4956B)
+- **Accent:** Verde vibrante (#4CAF50)
+- **Background:** Creme (#F7F4EF)
+- **Foreground:** Marrom escuro (#442E26)
+
+## 📞 Suporte
+
+Para dúvidas sobre o código ou personalização, consulte a [documentação do Lovable](https://docs.lovable.dev/).
+
+## 📝 Licença
+
+© 2025 MABECO. Todos os direitos reservados.
