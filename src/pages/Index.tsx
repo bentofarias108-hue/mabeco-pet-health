@@ -2,8 +2,10 @@ import Header from "@/components/Header";
 import Hero from "@/components/Hero";
 import Benefits from "@/components/Benefits";
 import VideoSection from "@/components/VideoSection";
+import VeterinaryExpertise from "@/components/VeterinaryExpertise";
 import QualityFeatures from "@/components/QualityFeatures";
 import Comparison from "@/components/Comparison";
+import PackagingSection from "@/components/PackagingSection";
 import WhenToOffer from "@/components/WhenToOffer";
 import BenefitsList from "@/components/BenefitsList";
 import CTASection from "@/components/CTASection";
@@ -18,8 +20,10 @@ const Index = () => {
         <Hero />
         <Benefits />
         <VideoSection />
+        <VeterinaryExpertise />
         <QualityFeatures />
         <Comparison />
+        <PackagingSection />
         <WhenToOffer />
         <BenefitsList />
         <CTASection />
