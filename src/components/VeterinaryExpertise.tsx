@@ -1,4 +1,4 @@
-import veterinaryImage from "@/assets/veterinary-expertise.jpg";
+import veterinaryImage from "@/assets/prepared-meal.jpg";
 import { Award, Heart } from "lucide-react";
 
 const VeterinaryExpertise = () => {

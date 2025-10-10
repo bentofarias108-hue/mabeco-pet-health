@@ -1,4 +1,4 @@
-import videoThumb from "@/assets/video-thumb.jpg";
+import videoThumb from "@/assets/ingredients-meal.jpg";
 
 const VideoSection = () => {
   return (
@@ -8,7 +8,7 @@ const VideoSection = () => {
           <div className="animate-fade-in-up">
             <img 
               src={videoThumb} 
-              alt="Cozinha profissional MABECO preparando alimentação natural para pets"
+              alt="Ingredientes frescos e refeição natural MABECO balanceada para pets"
               className="rounded-2xl shadow-2xl w-full h-auto"
             />
           </div>

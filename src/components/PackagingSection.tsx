@@ -1,4 +1,4 @@
-import packagingImage from "@/assets/vacuum-packaging.jpg";
+import packagingImage from "@/assets/vacuum-packages.jpg";
 import { ShieldCheck, Snowflake, Package } from "lucide-react";
 
 const PackagingSection = () => {

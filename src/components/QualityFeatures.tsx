@@ -1,5 +1,5 @@
 import { CheckCircle2, Leaf, ShieldCheck, Thermometer } from "lucide-react";
-import sectionImage from "@/assets/section-1.jpg";
+import sectionImage from "@/assets/ready-packages.jpg";
 
 const features = [
   {
@@ -60,7 +60,7 @@ const QualityFeatures = () => {
         <div className="mt-12 animate-fade-in-up">
           <img 
             src={sectionImage} 
-            alt="Ingredientes frescos e naturais para alimentação de pets: carnes, vegetais e legumes"
+            alt="Embalagens a vácuo MABECO com refeições naturais prontas para entrega"
             className="rounded-2xl shadow-2xl w-full max-w-4xl mx-auto"
           />
         </div>

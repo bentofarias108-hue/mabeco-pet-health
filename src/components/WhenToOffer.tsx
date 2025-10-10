@@ -1,4 +1,4 @@
-import whenOfferBg from "@/assets/when-offer-bg.jpg";
+import whenOfferBg from "@/assets/fresh-vegetables.jpg";
 
 const scenarios = [
   {

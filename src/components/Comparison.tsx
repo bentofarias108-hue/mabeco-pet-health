@@ -1,5 +1,5 @@
 import { Check, X } from "lucide-react";
-import comparisonImage from "@/assets/comparison-center.jpg";
+import comparisonImage from "@/assets/pet-bowl.jpg";
 
 const mabecoFeatures = [
   "Ingredientes frescos e naturais",
@@ -53,7 +53,7 @@ const Comparison = () => {
           <div className="animate-scale-in">
             <img 
               src={comparisonImage} 
-              alt="Cão saudável e feliz após alimentação natural MABECO"
+              alt="Tigela com alimentação natural MABECO preparada com ingredientes frescos"
               className="rounded-2xl shadow-2xl w-full"
             />
           </div>
