@@ -1,5 +1,5 @@
 import { CheckCircle2 } from "lucide-react";
-import section2Image from "@/assets/section-2.jpg";
+import section2Image from "@/assets/sealing-package.jpg";
 
 const benefits = [
   "Reduz significativamente visitas ao veterinário",
@@ -46,7 +46,7 @@ const BenefitsList = () => {
           <div className="animate-scale-in">
             <img 
               src={section2Image} 
-              alt="Veterinário examinando cão saudável"
+              alt="Processo de selagem a vácuo das refeições naturais MABECO garantindo frescor"
               className="rounded-2xl shadow-2xl w-full"
             />
           </div>
