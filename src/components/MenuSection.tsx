@@ -8,6 +8,9 @@ import peixeBrocolisImage from "@/assets/menu-peixe-brocolis.jpg";
 import quinoaGregaImage from "@/assets/menu-quinoa-grega.jpg";
 import risotinhoLinguaImage from "@/assets/menu-risotinho-lingua.jpg";
 import lomboLegumesImage from "@/assets/menu-lombo-legumes.jpg";
+import lomboRoseImage from "@/assets/menu-lombo-rose.jpg";
+import tofuOvoImage from "@/assets/menu-tofu-ovo.jpg";
+import vacaAtoladaImage from "@/assets/menu-vaca-atolada.jpg";
 
 const menuItems = [
   {
@@ -59,6 +62,21 @@ const menuItems = [
     name: "Lombo com Legumes",
     image: lomboLegumesImage,
     description: "Lombo suíno, chuchu, coco, batata inglesa e cenoura"
+  },
+  {
+    name: "Lombo Rosé",
+    image: lomboRoseImage,
+    description: "Lombo suíno, fígado bovino, beterraba, batata inglesa, chuchu e coco"
+  },
+  {
+    name: "Tofu com Ovo",
+    image: tofuOvoImage,
+    description: "Tofu, fígado bovino, lentilha, batata doce, cenoura, vagem e ovo"
+  },
+  {
+    name: "Vaca Atolada",
+    image: vacaAtoladaImage,
+    description: "Costela bovina, fígado, feijão, abóbora, cenoura e acelga"
   }
 ];
 
