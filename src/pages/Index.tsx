@@ -20,8 +20,8 @@ const Index = () => {
       <main className="pt-20">
         <Hero />
         <Benefits />
-        <VideoSection />
         <MenuSection />
+        <VideoSection />
         <VeterinaryExpertise />
         <QualityFeatures />
         <Comparison />

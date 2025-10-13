@@ -25,16 +25,17 @@ const Footer = () => {
                 </span>
               </div>
               <div className="flex items-start gap-3">
-                <Clock className="w-5 h-5 text-primary flex-shrink-0 mt-1" />
-                <span className="text-white/80">
-                  Seg-Sex: 8h-18h | Sáb: 8h-13h
-                </span>
+                <Mail className="w-5 h-5 text-primary flex-shrink-0 mt-1" />
+                <a href="mailto:mabecoan@gmail.com" className="text-white/80 hover:text-primary transition-colors">
+                  mabecoan@gmail.com
+                </a>
               </div>
               <div className="flex items-start gap-3">
-                <Mail className="w-5 h-5 text-primary flex-shrink-0 mt-1" />
-                <a href="mailto:contato@mabeco.com" className="text-white/80 hover:text-primary transition-colors">
-                  contato@mabeco.com
-                </a>
+                <Clock className="w-5 h-5 text-primary flex-shrink-0 mt-1" />
+                <div className="text-white/80">
+                  <p>Marília e região: (14) 99741-5100</p>
+                  <p>Parcerias: (11) 91966-5100</p>
+                </div>
               </div>
             </div>
           </div>

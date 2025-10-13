@@ -3,7 +3,11 @@ import { MessageCircle, Phone } from "lucide-react";
 
 const CTASection = () => {
   const handleWhatsAppClick = () => {
-    window.open("https://wa.me/55{{TELEFONE}}?text=Olá! Quero uma avaliação para o meu pet.", "_blank");
+    window.open("https://wa.me/message/2CLLVIOFUVFKM1", "_blank");
+  };
+
+  const handlePhoneClick = () => {
+    window.open("tel:+5514997675100", "_blank");
   };
 
   return (
@@ -29,8 +33,8 @@ const CTASection = () => {
             <Button 
               variant="outline" 
               size="lg"
-              onClick={handleWhatsAppClick}
-              className="text-lg border-2 border-white text-white hover:bg-white hover:text-primary"
+              onClick={handlePhoneClick}
+              className="text-lg border-2 border-white bg-foreground text-white hover:bg-white hover:text-foreground"
             >
               <Phone className="mr-2 h-5 w-5" />
               Ligar Agora

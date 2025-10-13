@@ -31,7 +31,7 @@ const VeterinaryExpertise = () => {
                     Sua confiança garantida
                   </p>
                   <p className="text-muted-foreground">
-                    Nutricionista responsável: <span className="text-foreground font-medium">Dra. Daniela Maximo - CRMV-SP</span>
+                    Nutricionista responsável: <span className="text-foreground font-medium">Dra. Daniela Maximo - CRMV-SP 10385</span>
                   </p>
                 </div>
               </div>

@@ -4,8 +4,7 @@ import heroImage from "@/assets/mabeco-store.jpg";
 
 const Hero = () => {
   const handleWhatsAppClick = () => {
-    // Replace {{TELEFONE}} with actual number when deploying
-    window.open("https://wa.me/55{{TELEFONE}}?text=Olá! Gostaria de saber mais sobre a alimentação natural MABECO.", "_blank");
+    window.open("https://wa.me/message/2CLLVIOFUVFKM1", "_blank");
   };
 
   return (
