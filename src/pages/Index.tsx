@@ -20,7 +20,6 @@ const Index = () => {
       <main className="pt-20">
         <Hero />
         <Benefits />
-        <MenuSection />
         <VideoSection />
         <VeterinaryExpertise />
         <QualityFeatures />
@@ -29,6 +28,7 @@ const Index = () => {
         <WhenToOffer />
         <BenefitsList />
         <CTASection />
+        <MenuSection />
       </main>
       <Footer />
       <WhatsAppButton />

@@ -3,7 +3,7 @@ import { Button } from "@/components/ui/button";
 
 const WhatsAppButton = () => {
   const handleWhatsAppClick = () => {
-    window.open("https://wa.me/message/2CLLVIOFUVFKM1", "_blank");
+    window.open("https://api.whatsapp.com/send?phone=5514997415100&text=Olá! Gostaria de mais informações sobre MABECO.", "_blank");
   };
 
   return (
