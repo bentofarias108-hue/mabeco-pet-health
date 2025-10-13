@@ -21,13 +21,13 @@ const Index = () => {
         <Hero />
         <Benefits />
         <VideoSection />
+        <MenuSection />
         <VeterinaryExpertise />
         <QualityFeatures />
         <Comparison />
         <PackagingSection />
         <WhenToOffer />
         <BenefitsList />
-        <MenuSection />
         <CTASection />
       </main>
       <Footer />
