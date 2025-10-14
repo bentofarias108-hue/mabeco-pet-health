@@ -3,7 +3,8 @@ import { Button } from "@/components/ui/button";
 
 const WhatsAppButton = () => {
   const handleWhatsAppClick = () => {
-    window.open("https://api.whatsapp.com/send?phone=5514997415100&text=Olá! Gostaria de mais informações sobre MABECO.", "_blank");
+    const text = "Olá! Gostaria de mais informações sobre MABECO.";
+    window.location.href = `https://wa.me/5514997415100?text=${encodeURIComponent(text)}`;
   };
 
   return (

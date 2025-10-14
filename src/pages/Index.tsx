@@ -10,6 +10,7 @@ import WhenToOffer from "@/components/WhenToOffer";
 import BenefitsList from "@/components/BenefitsList";
 import MenuSection from "@/components/MenuSection";
 import CTASection from "@/components/CTASection";
+import CompanyInfo from "@/components/CompanyInfo";
 import Footer from "@/components/Footer";
 import WhatsAppButton from "@/components/WhatsAppButton";
 
@@ -27,6 +28,7 @@ const Index = () => {
         <PackagingSection />
         <WhenToOffer />
         <BenefitsList />
+        <CompanyInfo />
         <CTASection />
         <MenuSection />
       </main>

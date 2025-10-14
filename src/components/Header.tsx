@@ -3,7 +3,8 @@ import { MessageCircle } from "lucide-react";
 
 const Header = () => {
   const handleWhatsAppClick = () => {
-    window.open("https://api.whatsapp.com/send?phone=5514997415100", "_blank");
+    const text = "Olá! Quero falar com a MABECO.";
+    window.location.href = `https://wa.me/5514997415100?text=${encodeURIComponent(text)}`;
   };
 
   return (

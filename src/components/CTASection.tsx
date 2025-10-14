@@ -3,11 +3,12 @@ import { MessageCircle, Phone } from "lucide-react";
 
 const CTASection = () => {
   const handleWhatsAppClick = () => {
-    window.open("https://api.whatsapp.com/send?phone=5514997415100&text=Olá! Quero uma avaliação para o meu pet.", "_blank");
+    const text = "Olá! Quero uma avaliação para o meu pet.";
+    window.location.href = `https://wa.me/5514997415100?text=${encodeURIComponent(text)}`;
   };
 
   const handlePhoneClick = () => {
-    window.open("tel:+5514997675100", "_blank");
+    window.location.href = "tel:+5514997675100";
   };
 
   return (
