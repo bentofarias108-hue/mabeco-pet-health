@@ -3,7 +3,16 @@ import { MessageCircle } from "lucide-react";
 
 const Header = () => {
   const handleWhatsAppClick = () => {
-    window.location.href = "https://wa.me/message/2CLLVIOFUVFKM1";
+    const wppMessageUrl = "https://wa.me/message/2CLLVIOFUVFKM1";
+    const fallbackUrl = "https://api.whatsapp.com/send?phone=5514997415100";
+    try {
+      const win = window.open(wppMessageUrl, "_blank", "noopener,noreferrer");
+      if (!win) {
+        window.open(fallbackUrl, "_blank", "noopener,noreferrer");
+      }
+    } catch {
+      window.open(fallbackUrl, "_blank", "noopener,noreferrer");
+    }
   };
 
   return (
