@@ -8,7 +8,6 @@ import Comparison from "@/components/Comparison";
 import PackagingSection from "@/components/PackagingSection";
 import WhenToOffer from "@/components/WhenToOffer";
 import BenefitsList from "@/components/BenefitsList";
-import MenuSection from "@/components/MenuSection";
 import CTASection from "@/components/CTASection";
 import CompanyInfo from "@/components/CompanyInfo";
 import Footer from "@/components/Footer";
@@ -30,7 +29,6 @@ const Index = () => {
         <BenefitsList />
         <CompanyInfo />
         <CTASection />
-        <MenuSection />
       </main>
       <Footer />
       <WhatsAppButton />
