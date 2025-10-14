@@ -3,8 +3,7 @@ import { MessageCircle, Phone } from "lucide-react";
 
 const CTASection = () => {
   const handleWhatsAppClick = () => {
-    const text = "Olá! Quero uma avaliação para o meu pet.";
-    window.location.href = `https://wa.me/5514997415100?text=${encodeURIComponent(text)}`;
+    window.location.href = "https://wa.me/message/2CLLVIOFUVFKM1";
   };
 
   const handlePhoneClick = () => {

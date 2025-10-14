@@ -4,8 +4,7 @@ import heroImage from "@/assets/mabeco-store.jpg";
 
 const Hero = () => {
   const handleWhatsAppClick = () => {
-    const text = "Olá! Gostaria de saber mais sobre a alimentação natural MABECO.";
-    window.location.href = `https://wa.me/5514997415100?text=${encodeURIComponent(text)}`;
+    window.location.href = "https://wa.me/message/2CLLVIOFUVFKM1";
   };
 
   return (
