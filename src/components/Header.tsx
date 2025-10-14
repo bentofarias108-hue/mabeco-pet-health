@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { MessageCircle } from "lucide-react";
+import mabecoLogo from "@/assets/mabeco-logo.png";
 
 const Header = () => {
   const handleWhatsAppClick = () => {
@@ -20,9 +21,11 @@ const Header = () => {
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-20">
           <div className="flex items-center gap-2">
-            <div className="w-12 h-12 rounded-full bg-primary flex items-center justify-center">
-              <span className="text-white font-bold text-xl">M</span>
-            </div>
+            <img 
+              src={mabecoLogo} 
+              alt="MABECO Logo" 
+              className="w-12 h-12 rounded-full object-cover"
+            />
             <span className="text-2xl font-bold text-foreground">MABECO</span>
           </div>
 
