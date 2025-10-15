@@ -9,8 +9,8 @@ import buchinho from "@/assets/buchinho.jpg";
 import gelinho from "@/assets/gelinho.jpg";
 
 const petiscos = [
-  { name: "Petisco Natural 1", image: petisco1 },
-  { name: "Petisco Natural 2", image: petisco2 },
+  { name: "Moelinha", image: petisco1 },
+  { name: "Chips de Língua", image: petisco2 },
   { name: "Buchinho", image: buchinho },
   { name: "Gelinho", image: gelinho },
 ];
