@@ -1,4 +1,5 @@
 import { CheckCircle } from "lucide-react";
+import produtosImg from "@/assets/produtos-nutrovitta.jpg";
 
 const CompanyInfo = () => {
   return (
@@ -40,22 +41,50 @@ const CompanyInfo = () => {
         </div>
 
         <section className="mb-12">
-          <h3 className="text-xl font-semibold mb-4 text-center">Produtos Principais</h3>
+          <h3 className="text-2xl font-semibold mb-6 text-center">Nossos Produtos</h3>
+          
+          {/* Produtos em Destaque */}
+          <div className="mb-8 p-8 rounded-xl bg-card shadow-lg">
+            <img 
+              src={produtosImg} 
+              alt="Produtos Nutrovitta - Bocadinho Pet e Alfachoco" 
+              className="w-full h-auto rounded-lg mb-6"
+            />
+            <div className="grid md:grid-cols-2 gap-6">
+              <div className="p-4 rounded-lg bg-accent/10">
+                <h4 className="font-bold text-lg mb-2 text-primary">🥖 Bocadinho Pet</h4>
+                <p className="text-sm text-muted-foreground">
+                  Pãezinhos assados com queijo, batata e carinho — 100% natural! 
+                  Sem conservantes, assado e natural.
+                </p>
+              </div>
+              <div className="p-4 rounded-lg bg-accent/10">
+                <h4 className="font-bold text-lg mb-2 text-primary">🍫 Alfachoco</h4>
+                <p className="text-sm text-muted-foreground">
+                  Barrinha irresistível, segura e saudável para cães — sem açúcar, só amor! 
+                  Sem conservantes, assado e natural.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          {/* Linhas de Produtos */}
+          <h4 className="text-xl font-semibold mb-4 text-center">Linhas Completas</h4>
           <div className="grid md:grid-cols-3 gap-6">
             <div className="p-6 rounded-xl bg-card shadow">
-              <h4 className="font-semibold mb-2">Linha Nutritiva</h4>
+              <h5 className="font-semibold mb-2">Linha Nutritiva</h5>
               <p className="text-sm text-muted-foreground">
                 Refeições balanceadas, cardápio completo com 14 sabores, vendidos em kits Nutrivitta Naturale Premium, além de Caldo de Osso.
               </p>
             </div>
             <div className="p-6 rounded-xl bg-card shadow">
-              <h4 className="font-semibold mb-2">Linha Snacks Naturais</h4>
+              <h5 className="font-semibold mb-2">Linha Snacks Naturais</h5>
               <p className="text-sm text-muted-foreground">
                 Biscoitos e Petiscos naturais de vários sabores, Bocadinho Pet, Alfachoco, Chips de carnes.
               </p>
             </div>
             <div className="p-6 rounded-xl bg-card shadow">
-              <h4 className="font-semibold mb-2">Linha Experiência</h4>
+              <h5 className="font-semibold mb-2">Linha Experiência</h5>
               <p className="text-sm text-muted-foreground">Sorvete Pet, Cerveja Pet, Bolos.</p>
             </div>
           </div>

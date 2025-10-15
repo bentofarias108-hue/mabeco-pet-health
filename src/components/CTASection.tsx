@@ -16,7 +16,7 @@ const CTASection = () => {
   };
 
   const handlePhoneClick = () => {
-    window.location.href = "tel:+5514997675100";
+    window.location.href = "tel:+5514997415100";
   };
 
   return (

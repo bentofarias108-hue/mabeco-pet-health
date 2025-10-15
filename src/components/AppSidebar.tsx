@@ -15,7 +15,7 @@ import {
 
 const items = [
   { title: "Início", url: "/", icon: Home },
-  { title: "Comidiunhas", url: "/comidas", icon: UtensilsCrossed },
+  { title: "Comidinhas", url: "/comidas", icon: UtensilsCrossed },
   { title: "Biscoitos", url: "/biscoitos", icon: Cookie },
   { title: "Petiscos", url: "/petiscos", icon: Bone },
   { title: "Nutrovitta", url: "/nutrovitta", icon: Building2 },
@@ -28,7 +28,7 @@ export function AppSidebar() {
     <Sidebar collapsible="icon">
       <SidebarContent>
         <SidebarGroup>
-          <SidebarGroupLabel>Categorias</SidebarGroupLabel>
+          <SidebarGroupLabel className="text-base font-semibold">Categorias</SidebarGroupLabel>
           <SidebarGroupContent>
             <SidebarMenu>
               {items.map((item) => (
@@ -40,8 +40,8 @@ export function AppSidebar() {
                         isActive ? "bg-primary/10 text-primary font-medium" : ""
                       }
                     >
-                      <item.icon />
-                      <span>{item.title}</span>
+                      <item.icon className="h-5 w-5" />
+                      <span className="text-base">{item.title}</span>
                     </NavLink>
                   </SidebarMenuButton>
                 </SidebarMenuItem>
