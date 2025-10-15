@@ -15,7 +15,7 @@ import {
 
 const items = [
   { title: "Início", url: "/", icon: Home },
-  { title: "Comidas", url: "/comidas", icon: UtensilsCrossed },
+  { title: "Comidiunhas", url: "/comidas", icon: UtensilsCrossed },
   { title: "Biscoitos", url: "/biscoitos", icon: Cookie },
   { title: "Petiscos", url: "/petiscos", icon: Bone },
   { title: "Nutrovitta", url: "/nutrovitta", icon: Building2 },
